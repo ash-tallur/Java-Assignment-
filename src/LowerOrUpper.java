@@ -5,7 +5,7 @@ public class LowerOrUpper {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter a character1");
+        System.out.println("Enter a character");
 
         // Character enter by the user
         char enteredChar = sc.next().charAt(0);
