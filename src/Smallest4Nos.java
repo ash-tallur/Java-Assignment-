@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Smallest4Nos {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in); // test
+        Scanner sc = new Scanner(System.in); // resolve the conflict
         System.out.println("Enter 4 numbers to find smallest");
         System.out.println("Enter first number");
         int num1 = sc.nextInt();
