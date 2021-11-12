@@ -23,7 +23,7 @@ public class Smallest4Nos {
         if(num1<num2 && num2<num3 && num3<num4){
              smallest = num1;
         }
-        else if(um2<num3&&num2<num4){
+        else if(num2<num3&&num2<num4){
              smallest = num2;
          }
          else if(num3<num4){
