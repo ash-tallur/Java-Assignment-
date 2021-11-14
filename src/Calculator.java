@@ -15,17 +15,17 @@ public class Calculator {
         do {
             System.out.println("Enter your option");
             option = sc.nextInt();
+            //If option value is more than 4 then asking user to choose right option
             if(option>4){
                 System.out.println("Choose the right option");
             }
             else {
+                //Taking input from the users
                 System.out.println("Enter the two numbers for the preferred operation");
-
                 System.out.println("Enter number1");
                 num1 = sc.nextFloat();
                 System.out.println("Enter number2");
                 num2 = sc.nextFloat();
-
 
                 switch (option) {
                     case 1:
@@ -53,6 +53,7 @@ public class Calculator {
                         break;
                 }
             }
+                //Giving an option for user to continue calculator or no
                 System.out.println("Do you want to continue? 1. Yes 2. No ");
                 exitcriteria = sc.nextInt();
 
